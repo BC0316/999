@@ -109,7 +109,7 @@ def dice(ws,ls):
       "Low": low,
       "High": high,
       "ClientSeed": seed,
-      "Currency": "doge",
+      "Currency": "ltc",
       "ProtocolVersion": "2"
    }
    try:
@@ -195,7 +195,7 @@ def dice(ws,ls):
           "Low": low,
           "High": high,
           "ClientSeed": seed,
-          "Currency": "doge",
+          "Currency": "ltc",
           "ProtocolVersion": "2"
         }
         if prof > float(obj["Stop"]["If_Prof"]):
@@ -264,7 +264,7 @@ def dice(ws,ls):
                       "s": js["SessionCookie"],
                       "Amount": send,
                       "Address": wallet,
-                      "Currency": "doge"
+                      "Currency": "ltc"
                      }
               wd = c.post(url,headers=ua,data=data)
               if b is True:
