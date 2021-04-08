@@ -3,16 +3,16 @@
               "Password": "XXXXXXXXXXXX"
 },
 
- "Interface":{ "Base Bet":"0.01",
+ "Interface":{ "Base Bet":"0.00000005",
                "Max Bet":"off",
-               "Chance":"79",
-               "Random":{"Auto": "on",
+               "Chance":"45",
+               "Random":{"Auto": "off",
                          "Min" : "5",
                          "Max" : "14"
                         },
 
-               "Cl_Seed":{"Auto"       :"off",
-                          "Every_Lose" : "1"
+               "Cl_Seed":{"Auto"       :"on",
+                          "Every_Lose" : "3"
                          }
               },
 
@@ -24,16 +24,16 @@
           },
 
  "Increase" :{ "After Win"  : "1",
-               "After Lose" : "1.04"
+               "After Lose" : "1.9"
              },
 
- "Reset"    :{ "If_Win"   : "0",
+ "Reset"    :{ "If_Win"   : "1",
                "If_Lose"  : "0"
              },
 
  "Stop"    :{ "Balance"  : "50000000",
               "If_Lose"  : "0",
-              "If_Prof"  : "0"
+              "If_Prof"  : "1"
              },
 
  "Withdraw" :{"Auto"   : "off",
